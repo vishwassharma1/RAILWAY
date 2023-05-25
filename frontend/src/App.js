@@ -64,17 +64,11 @@ const App = () => {
       <ToastContainer />
       <div className="max-w-md mx-auto md:max-w-2xl text-center">
         <h2 className="text-2xl text-[#ee5e5f] font-bold mb-14 pb-2 border-b border-[#eca74e4f] flex flex-col md:flex-row md:items-center md:justify-center">
-          <span>Train Booking System by </span>
-          <span className="md:ml-2">
-            <a
-              href="https://vaibhaw.netlify.app"
-              target="_blank"
-              className="text-[#eca74e] hover:text-[#149ddd] duration-500"
-              rel="noreferrer"
-            >
-              Vishwashi
-            </a>
-          </span>
+          <span>Train Booking System by vishwas</span>
+        
+           
+            
+          
         </h2>
 
         <div className="md:flex">
@@ -93,7 +87,7 @@ const App = () => {
               Train Number: 100001
             </p>
             <p className="mt-2 text-gray-500">
-              Delhi <i className="fa-solid fa-arrow-right mx-2"></i> Banglore
+              Delhi <i className="fa-solid fa-arrow-right mx-2"></i> pune
             </p>
           </div>
         </div>
