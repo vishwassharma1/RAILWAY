@@ -72,13 +72,13 @@ const App = () => {
         </h2>
 
         <div className="md:flex">
-          <div className="md:flex-shrink-0">
+          {/* <div className="md:flex-shrink-0">
             <img
               src="/train-placeholder-pin-pointer-gps-map-location-512.png"
               alt="Train_image"
               className="w-48 h-48 md:h-full md:w-64 mx-auto"
             />
-          </div>
+          </div> */}
           <div className="p-8 md:mt-8">
             <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold cursor-default">
               Train Coach: D1
