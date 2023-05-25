@@ -72,7 +72,7 @@ const App = () => {
               className="text-[#eca74e] hover:text-[#149ddd] duration-500"
               rel="noreferrer"
             >
-              Vaibhaw Mishra
+              Vishwashi
             </a>
           </span>
         </h2>
