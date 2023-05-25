@@ -74,7 +74,7 @@ const App = () => {
         <div className="md:flex">
           <div className="md:flex-shrink-0">
             <img
-              src="train.avif"
+              src="C:\Users\hardik\Downloads\train-booking-master\frontend\src\train.avif"
               alt="Train_image"
               className="w-48 h-48 md:h-full md:w-64 mx-auto"
             />
