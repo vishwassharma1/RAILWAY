@@ -74,7 +74,7 @@ const App = () => {
         <div className="md:flex">
           <div className="md:flex-shrink-0">
             <img
-              src="https://cdn3.iconfinder.com/data/icons/placeholder/64/train-placeholder-pin-pointer-gps-map-location-512.png"
+              src="train.avif"
               alt="Train_image"
               className="w-48 h-48 md:h-full md:w-64 mx-auto"
             />
