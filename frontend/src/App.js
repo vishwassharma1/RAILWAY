@@ -81,13 +81,13 @@ const App = () => {
           </div>
           <div className="p-8 md:mt-8">
             <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold cursor-default">
-              Train Coach: A1
+              Train Coach: D1
             </div>
             <p className="block mt-1 text-lg leading-tight font-medium text-black hover:underline cursor-default">
-              Train Number: 100001
+              Train Number: 12057
             </p>
             <p className="mt-2 text-gray-500">
-              Delhi <i className="fa-solid fa-arrow-right mx-2"></i> pune
+              Delhi <i className="fa-solid fa-arrow-right mx-2"></i> Pune
             </p>
           </div>
         </div>
@@ -135,9 +135,9 @@ const App = () => {
               {trainData.coach.seats.map((seat) => (
                 <div key={seat.number}>
                   {seat.isBooked ? (
-                    <i className="fa-solid fa-couch text-red-500"></i>
+                    <i className="fa-solid fa-seat-airline text-red-500"></i>
                   ) : (
-                    <i className="fa-solid fa-couch text-green-500"></i>
+                    <i className="fa-solid fa-seat-airline text-green-500"></i>
                   )}
                   <div className="text-sm">{seat.number}</div>
                 </div>
