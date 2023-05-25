@@ -74,7 +74,7 @@ const App = () => {
         <div className="md:flex">
           <div className="md:flex-shrink-0">
             <img
-              src="C:\Users\hardik\Downloads\train-booking-master\frontend\src\train.avif"
+              src="/train-placeholder-pin-pointer-gps-map-location-512.png"
               alt="Train_image"
               className="w-48 h-48 md:h-full md:w-64 mx-auto"
             />
@@ -106,7 +106,7 @@ const App = () => {
         />
         <div className="flex justify-between items-center">
           <button
-            className="bg-[#eca74e] hover:bg-[#ee5e5f] duration-200 text-white font-bold py-2 px-4 rounded mt-5 mr-4 mx-auto block"
+            className="bg-[#bb86fc;] hover:bg-[#5856d6] duration-200 text-white font-bold py-2 px-4 rounded mt-5 mr-4 mx-auto block"
             onClick={handleBookSeats}
           >
             Book Seats
