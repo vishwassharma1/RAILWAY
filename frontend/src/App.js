@@ -135,11 +135,9 @@ const App = () => {
               {trainData.coach.seats.map((seat) => (
                 <div key={seat.number}>
                   {seat.isBooked ? (
-                    <i class="fa-sharp fa-solid fa-seat-airline" style="color: #d80e0e;"></i>
-           
+                    <i className="fa-solid fa-couch text-red-500"></i>
                   ) : (
-                    <i class="fa-sharp fa-solid fa-seat-airline" style="color: #0ed851;"></i>
-                 
+                    <i className="fa-solid fa-couch text-green-500"></i>
                   )}
                   <div className="text-sm">{seat.number}</div>
                 </div>
